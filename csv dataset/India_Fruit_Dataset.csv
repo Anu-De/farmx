@@ -1,0 +1,51 @@
+﻿Fruit,State,Region,Plantation_Time,Ripening_Time,Harvesting_Time,Season
+Apple,Arunachal Pradesh,Tawang; West Kameng,Dec–Feb,Sep–Sep,Sep–Oct,Autumn
+Apple,Himachal Pradesh,Shimla; Kinnaur,Dec–Feb,Jul–Aug,Aug–Oct,Autumn
+Apple,Jammu & Kashmir,Sopore; Shopian,Dec–Feb,Aug–Sep,Sep–Oct,Autumn
+Apple,Uttarakhand,Shimla-like hills,Nov–Jan,Jun–Jul,Jul–Sep,Summer
+Banana,Andhra Pradesh,Kadapa; Anantapur,Jun–Jul,8–9 Months,Year-round,All Year Round
+Banana,Kerala,Wayanad; Thrissur,Sep–Oct,Jul–Aug,Aug–Sep,Monsoon/Autumn
+Banana,Maharashtra,Jalgaon,Jun–Jul,11–12 Months,Year-round,All Year Round
+Banana,Tamil Nadu,Trichy; Theni,Feb–Apr,11–12 Months,Year-round,All Year Round
+Banana,Karnataka,Chitradurga; Haveri,Apr–Jun,11–12 Months,Sep–Apr,All Year Round
+Banana,Karnataka,Bengaluru; Mysore,Feb–Apr,10–12 Months,Year-round,All Year Round
+Banana,Bihar,Patna; Muzaffarpur,Mar–May,9–11 Months,Nov–Feb,Winter
+Banana,Uttar Pradesh,Lucknow; Varanasi,Feb–Apr,10–12 Months,Year-round,All Year Round
+Guava,Jharkhand,Ranchi,Jun–Aug,Nov–Dec,Dec–Feb,Winter
+Guava,Madhya Pradesh,Chhindwara,Jun–Jul,Nov–Dec,Dec–Feb,Winter
+Guava,Uttar Pradesh,Allahabad (Prayagraj),Jul–Aug,Nov–Dec,Dec–Feb,Winter
+Guava,Bihar,Muzaffarpur,Jun–Aug,Nov–Dec,Dec–Feb,Winter
+Guava,Bihar,Patna,Jul–Sep,Oct–Nov,Nov–Jan,Autumn
+Lime,Andhra Pradesh,Nellore; Tenali,Jun–Aug,5–6 Months,Year-round,All Year Round
+Lime,Odisha,Ganjam,Jun–Jul,Nov–Dec,Year-round,All Year Round
+Lime (Assam Lemon),Assam,Tinsukia; Dibrugarh,Mar–Apr,Jul–Aug,Year-round,All Year Round
+Lime,Karnataka,Haveri,Jun–Aug,5–6 Months,Year-round,All Year Round
+Mango (Alphonso),Maharashtra,Ratnagiri; Sindhudurg,Jun–Aug,Mar–Apr,Apr–May,Summer
+Mango (Banganapalli),Andhra Pradesh,Krishna; Chittoor,Jun–Jul,Apr–Apr,Apr–Jun,Summer
+Mango (Dasheri),Uttar Pradesh,Lucknow (Malihabad),Jul–Aug,May–Jun,Jun–Jul,Summer
+Mango (Kesar),Gujarat,Junagadh; Gir,Jul–Aug,May–May,May–Jun,Summer
+Mango,Karnataka,Bengaluru; Kolar,Jun–Jul,Mar–Apr,Apr–Jun,Summer
+Mango,Bihar,Darbhanga; Purnia,Jun–Jul,Apr–May,May–Jul,Summer
+Orange (Kinnow),Punjab,Abohar; Fazilka,Feb–Mar,Dec–Jan,Jan–Feb,Winter
+Orange (Nagpur),Maharashtra,Nagpur; Amravati,Jun–Jul,Feb–Mar,Feb–Apr,Spring
+Orange (Sikkim Mandarin),Sikkim,East Sikkim,May–Jun,Nov–Dec,Dec–Jan,Winter
+Orange (Tamenglong),Manipur,Tamenglong,May–Jun,Nov–Nov,Nov–Jan,Winter
+Orange,Karnataka,Kodagu,Jun–Jul,Feb–Mar,Feb–Apr,Spring
+Orange,Bihar,Muzaffarpur,Feb–Mar,Dec–Jan,Jan–Feb,Winter
+Pomegranate,Karnataka,Chitradurga,May–Jun,Oct–Nov,Nov–Jan,Winter
+Pomegranate,Maharashtra,Solapur; Nashik,Jun–Aug,Jan–Feb,Year-round,All Year Round
+Pomegranate,Rajasthan,Jodhpur; Barmer,Feb–Mar,Sep–Oct,Oct–Dec,Winter
+Pomegranate,Gujarat,Junagadh; Anand,Feb–Mar,Sep–Oct,Oct–Dec,Autumn
+Pomegranate,Tamil Nadu,Krishnagiri,Mar–Apr,Oct–Nov,Nov–Jan,Winter
+Strawberry,Haryana,Hisar,Sep–Oct,Feb–Mar,Feb–Apr,Spring
+Strawberry,Maharashtra,Mahabaleshwar; Panchgani,Oct–Nov,Dec–Jan,Dec–Mar,Winter
+Strawberry,Meghalaya,Ri Bhoi,Sep–Oct,Jan–Feb,Jan–Mar,Winter
+Strawberry,Karnataka,Mahabaleshwar-like,Sep–Oct,Jan–Feb,Jan–Mar,Winter
+Tomato,Andhra Pradesh,Madanapalle,Jun–Jul,Aug–Sep,Sep–Nov,Autumn
+Tomato,Chhattisgarh,Raipur; Durg,Oct–Nov,Jan–Feb,Feb–Mar,Winter
+Tomato,Karnataka,Kolar,May–Jun,Jul–Aug,Aug–Sep,Monsoon
+Tomato,Bihar,Patna,Jun–Jul,Aug–Sep,Sep–Nov,Autumn
+Litchi,Bihar,Muzaffarpur,Feb–Mar,May–Jun,May–Jun,Summer
+Litchi,Uttar Pradesh,Lucknow,Feb–Mar,May–Jun,May–Jun,Summer
+Papaya,Karnataka,Bengaluru,Jun–Aug,9–10 Months,Year-round,All Year Round
+Papaya,Tamil Nadu,Coimbatore,Feb–Apr,9–10 Months,Year-round,All Year Round
