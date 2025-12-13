@@ -118,17 +118,43 @@ def calculate_ripeness(current_month, plantation_month):
 # ===================== MAIN ==========================
 def main():
 
-    # FIRST — ML IMAGE PREDICTION
-    print("\n🔍 Processing Image Prediction...\n")
-    fruit_name, ml_status, unripe_pct, ripe_pct, overripe_pct = run_image_prediction()
-
-    print(f"🍎 Fruit Detected : {fruit_name}\n")
-
     # Now ask user
     place = input("Enter Location / City / Village Name: ")
     plant_month = input("Enter Plantation Month (example: March): ")
 
     plantation_month_num = month_to_number(plant_month)
+
+    # Current date
+    now = datetime.strptime(get_current_datetime()['date'], "%d-%m-%Y")
+    current_month = now.month
+    month_name = now.strftime("%B")
+
+    # Calculate crop age
+    if plantation_month_num:
+        crop_age_months = calculate_month_diff(plantation_month_num, current_month)
+    else:
+        crop_age_months = 6
+
+    # ========= REQUIRED UPDATE (YOUR REQUEST) ==========
+    if crop_age_months <= 2.5:
+        print("\n==============================================")
+        print("🌱 EARLY GROWTH STAGE DETECTED")
+        print("==============================================")
+        print(f"🪴 Plantation Month : {plant_month}")
+        print(f"📆 Current Month     : {month_name}")
+        print(f"🧮 Crop Age         : {crop_age_months:.1f} months")
+        print("----------------------------------------------")
+        print("🌱 STATUS: Plant is in GROWING PLANT STAGE.")
+        print("❌ Image analysis skipped (too early for ripeness).")
+        print("==============================================\n")
+        return
+    # ===================================================
+
+    # FIRST — ML IMAGE PREDICTION
+    print("\n🔍 Processing Image Prediction...\n")
+    fruit_name, ml_status, unripe_pct, ripe_pct, overripe_pct = run_image_prediction()
+
+    print(f"🍎 Fruit Detected : {fruit_name}\n")
 
     # CSV Lookup
     df = pd.read_csv(r"D:\programs\python\fruit reeping prediction\csv dataset\India_Fruit_Dataset.csv")
@@ -142,17 +168,12 @@ def main():
     lat, lon = loc["coordinates"]
     district, state, country = loc["district"], loc["state"], loc["country"]
 
-    now = datetime.strptime(get_current_datetime()['date'], "%d-%m-%Y")
-    month_name = now.strftime("%B")
-    current_month = now.month
-
     weather = get_weather_data(place, state)
     predicted_season = get_season_from_weather(weather)
 
     ripeness_score, crop_age, phase_reason = calculate_ripeness(
         current_month, plantation_month_num
     )
-
 
     # ================= LOGIC RESULT =================
     print("\n==============================================")
