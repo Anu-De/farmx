@@ -14,7 +14,7 @@ A hybrid AI-powered system that predicts fruit ripeness using deep learning mode
 | **Kishlay Kumar** | Model Testing, Image Data Collection/Management, Report Making |
 | **Anurag Deshmukh** | Data Collection & UI Management |
 | **Mohnish Pradhan** | Data Collection/Management, Report Making |
-| **Dipanshu Gupta** | CSV Data Collection & Dataset Management |
+| **Dipanshu Gupta** | CSV Data Collection & Management |
 | **Mohan Sahu** | | |
 
 ---
@@ -427,9 +427,9 @@ python type_train.py        # Train fruit type model
 
 **For Issues or Questions**:
 - **Technical Issues**: Create a GitHub issue
-- **Data/Dataset**: Contact Dipanshu Gupta
-- **ML Models**: Contact Mohan Sahu & Ketan Dinkar
-- **UI/Frontend**: Contact Mohnish Pradhan
+- **Data/Dataset**: Contact Anurag Deshmukh, Mohnish Pradhan and Dipanshu Gupta
+- **ML Models**: Contact Ketan Dinkar & Kishlay Kumar
+- **UI/Frontend**: Contact Anurag Deshmukh
 - **Integration**: Contact Kishlay Kumar
 
 ---
