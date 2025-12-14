@@ -18,7 +18,7 @@ except ImportError:
     def get_season_from_weather(w): return "Unknown"
 
 # --- CONFIGURATION ---
-st.set_page_config(page_title="FarmX - Crop Ripeness", page_icon="🌱", layout="wide")
+st.set_page_config(page_title="FARMX - CROP RIPENESS PREDICTION SYSTEM", page_icon="🌱", layout="wide")
 
 # --- CUSTOM CSS FOR MODERN UI ---
 st.markdown("""
@@ -201,7 +201,7 @@ def get_prediction(image, model_rip, model_fruit, device):
 # ================= MODERNIZED UI =================
 
 # 1. Custom Header
-st.markdown('<div class="main-header">🌱 FarmX: Smart Ripeness Analysis</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header">🌱 FARMX - CROP RIPENESS PREDICTION SYSTEM</div>', unsafe_allow_html=True)
 
 model_rip, model_fruit, device = load_models()
 
@@ -235,7 +235,7 @@ if crop_age_months <= 2.5:
 
 # 3. Image Upload
 st.write("### 2️⃣ Upload Crop Image")
-uploaded_file = st.file_uploader("", type=["jpg", "png", "jpeg"], label_visibility="collapsed")
+uploaded_file = st.file_uploader("Upload Image", type=["jpg", "png", "jpeg"], label_visibility="collapsed")
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file).convert("RGB")
@@ -245,7 +245,7 @@ if uploaded_file is not None:
     
     with col_img:
         st.write("**Image Preview:**")
-        st.image(image, caption='Uploaded Crop', use_container_width=True) 
+        st.image(image, caption='Uploaded Crop', use_column_width=True) 
 
     with col_report:
         st.write("**Action & Results:**")
